@@ -9,7 +9,7 @@ exports call = function (webhookAction, apiKey, data) {
 
     // IFTTT Webhooks accept json keys in the format value1, value2... 
 	for ( var i = 0; i < data.length; i++ ) {
-		var k = "value" + i
+		var k = "value" + ( i + 1  )
 		var v = data[i]
 
 		payload[k] = v
