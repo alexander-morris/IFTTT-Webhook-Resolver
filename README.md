@@ -4,6 +4,8 @@ This module allows you to easily make calls to IFTTT (see IFTTT.com).
 
 Webhooks are passed as SSL encrypted JSON payloads. 
 
+Install the package with npm:
+```npm i ifttt-webhook-resolver```
 
 ## 1. IFTTT Payloads
 IFTTT requires that the payloads are formatted as shown below:

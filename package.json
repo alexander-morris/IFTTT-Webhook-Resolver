@@ -1,14 +1,19 @@
 {
-  "name": "IFTTT Webhook Resolver",
-  "version": "1.0.1",
-  "description": "Calls IFTTT webhooks in one line.",
-  "author": "",
+  "name": "ifttt-webhook-resolver",
+  "version": "1.0.0",
+  "description": "This module allows you to easily make calls to IFTTT (see IFTTT.com).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-morris/IFTTT-Webhook-Resolver.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "request-promise": "^4.2.2"
-  }
+  "bugs": {
+    "url": "https://github.com/alexander-morris/IFTTT-Webhook-Resolver/issues"
+  },
+  "homepage": "https://github.com/alexander-morris/IFTTT-Webhook-Resolver#readme"
 }
